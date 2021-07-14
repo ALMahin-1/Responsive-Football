@@ -242,6 +242,51 @@
     width: 100%;
     height: 100%;
 }
+
+
+/* News Area start */
+
+.news-area {
+    margin:100px 60px 150px;
+}
+.news-area h1 {
+    font-size: 48px;
+    color: #0A0826;
+}
+.news{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.new-item {
+    width: 350px;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #0000004d;
+    border-radius: 5px;
+}
+.new-img {
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+.new-img img {
+    width: 100%;
+    height: 225px;
+    border-radius: 5px;
+}
+
+.new-info p {
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+.new-info h2 {
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+
 /*---------------------------*\
 ------ Main Area End ------  
 /*---------------------------*/
