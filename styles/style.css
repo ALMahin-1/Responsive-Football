@@ -132,3 +132,47 @@
 /*---------------------------*\
 ------ Header Area End ------  
 /*---------------------------*/
+
+
+/*---------------------------*\
+------ Main Area Start ------  
+/*---------------------------*/
+.players {
+    margin: 70px 175px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.player-blog {
+    padding: 15px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.233);
+}
+
+.player-img {
+    
+}
+
+.player-img img {
+    width: 100%;
+}
+
+.player-info {
+}
+
+.player-info h2 {
+    font-size: 28px;
+    color: #18191F;
+    margin: 10px 0;
+}
+
+.player-info p {
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-bottom: 20px;
+}
+
+
+/*---------------------------*\
+------ Main Area End ------  
+/*---------------------------*/
