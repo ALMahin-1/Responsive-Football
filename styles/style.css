@@ -1,0 +1,134 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;700;800;900&display=swap');
+ 
+
+/* Common CSS */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+/*---------------------------*\
+------ Header Area Start ------  
+/*---------------------------*/
+.header-area {
+    background-color: #2D25A0;
+}
+
+
+/*----- Navigation ------*/
+
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 42px 0;
+    margin: 0 150px;
+}
+
+.navigation ul {
+    display: flex;
+}
+
+.navigation ul li {
+    list-style: none;
+    
+}
+
+.navigation ul li > a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 36px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.my-btn  {
+    background-color: #E02C6D;
+    padding: 5px 15px;
+    font-size: 16px;
+    border: none;
+    font-weight: 600;
+}
+
+.my-btn a {
+    text-decoration: none;
+    color: #fff;
+}
+.mybtn i {
+    margin-right: 5px;
+}
+
+
+
+/*----- Banner ------*/
+
+.banner {
+    display: flex;
+    height: 509px;
+    margin: 0 150px;
+}
+
+.banner-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.banner-info h1 {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 900;
+    width: 85%;
+    margin-bottom: 10px;
+}
+
+.banner-info button {
+    padding: 10px 30px;
+}
+
+.banner-info button i {
+    margin-left: 8px;
+}
+
+.banner-img {
+    background: url(../images/head/Banner-2.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: inherit;
+    position: relative;
+}
+
+.banner-img .football{
+    position: absolute;
+    top: 175px;
+    left: 0px;
+    transition: transform .6s .2s ease-out;
+}
+
+.banner-img:hover  .football {
+    transform: translate(-100px, -100px) scale(.4) rotate(-180deg);
+}
+
+.banner-img .banner-player {
+    width: 540px;
+    transform-origin: top center;
+    position: absolute;
+    top: 50px;
+    left: 66px;
+    transition: transform .3s;
+}
+.banner-img:hover .banner-player {
+    transform: rotate(20deg);
+}
+
+
+/*---------------------------*\
+------ Header Area End ------  
+/*---------------------------*/
